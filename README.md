@@ -24,4 +24,5 @@ npm run lint
 ```
 
 ---
-# Electron-Vue-Application
+
+<img src="https://github.com/bran0/Electron-Vue-Application/blob/master/screenshot.png" />
