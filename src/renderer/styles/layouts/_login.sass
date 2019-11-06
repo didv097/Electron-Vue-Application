@@ -1,0 +1,48 @@
+$authBoxWidth: 500px
+
+#auth-info
+  position: fixed
+  left: 0
+  top: 0
+  bottom: 0
+  right: $authBoxWidth
+  background: linear-gradient(250deg, #00C853, #359531)
+  & .banner
+    position: relative
+    display: block
+    margin: auto
+    color: white
+    text-align: center
+    width: auto
+    max-width: 900px
+    padding: 0 50px
+    & .list
+      position: relative
+      margin: 0
+      margin-top: 100px
+      padding: 0
+    & .list > li
+      display: inline-block
+      font-size: 22px
+      font-family: Roboto-Bold
+      margin: 0 10px
+  & .copyright-info
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    line-height: 50px
+    text-align: center
+    font-size: 12px
+    color: #FFFFFF
+  
+#auth-box
+  position: fixed
+  right: 0
+  top: 0
+  bottom: 0
+  width: $authBoxWidth
+  background: #FFFFFF
+  & .auth-logo
+    width: auto
+    height: 50px

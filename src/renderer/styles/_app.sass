@@ -1,0 +1,62 @@
+@import "./styles/fonts/roboto.css"
+
+#app
+  font-family: 'Roboto-Regular'
+  background: #EAEAEA
+
+::-webkit-scrollbar
+  width: 8px
+  background: transparent
+::-webkit-scrollbar-thumb 
+  background: #A1A1A1
+  
+
+.hero-xy
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.hero-x
+  position: absolute
+  left: 50%
+  transform: translateX(-50%)
+
+.hero-y
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+
+.hero-bottom
+  position: absolute
+  bottom: 0
+  &[center]
+    left: 50%
+    transform: translateX(-50%)
+
+.absolute-page
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: white
+
+.fixed-page
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: white
+
+.fade-enter-active,
+.fade-leave-active 
+  transition-duration: 0.3s
+  transition-property: opacity
+  transition-timing-function: ease
+
+.fade-enter,
+.fade-leave-active 
+  opacity: 0
+
